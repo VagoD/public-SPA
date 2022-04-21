@@ -1,0 +1,24 @@
+.grid-container {
+    padding: 20px 20px;
+    column-gap: 20px;
+}
+
+.avatar-container {
+    justify-content: right;
+}
+
+.avatar {
+    height: fit-content;
+    width: 100%;
+}
+
+.typography-container {
+    row-gap: 20px;
+}
+
+.details-typography {
+    color: #ffe1bc;
+    padding: 0 20px;
+    background-color: #556B2F;
+    border-radius: 0 15px 15px 0;
+}

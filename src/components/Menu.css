@@ -1,0 +1,20 @@
+.menu-container {
+    display: flex;
+    padding-left: 3vw;
+}
+
+.menu-link {
+    border-radius: 0 0 15px 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffe1bc;
+    background-color: #556B2F;
+    margin: 0 15px;
+    padding: 10px 20px;
+    color: #ffe1bc;
+}
+
+.active {
+    border-color: #38471f;
+    border-style: none solid solid solid;
+}

@@ -1,0 +1,33 @@
+.app-header {
+    display: grid;
+    height: 10vh;
+    min-height: 40px;
+    grid-template-columns: 30% auto 30%;
+    background-color: #556B2F;
+    align-items: center;
+}
+
+.app-logo {
+    grid-column: 1;
+    padding-left: 10vw;
+    overflow: hidden;
+    max-height: 70%;
+
+}
+
+.app-title {
+    font-size: 24px;
+    font-weight: 600;
+    grid-column: 2;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .app-header {
+        grid-template-columns: 30% auto;
+    }
+
+    .app-logo {
+        padding-left: 5vw;
+    }
+}
